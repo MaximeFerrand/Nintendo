@@ -20,6 +20,13 @@ public class Test {
 		Jeu j4 = new Jeu("Horizon", c4);
 		Jeu j5 = new Jeu("Forza Horizon", c5);
 		
+		Client c1= new Client("Meriem","Rochdi");
+		Client c2= new Client("Catherine", "Rousseau");
+		
+		
+		
+		
+		
 	}
 
 }
