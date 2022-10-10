@@ -29,6 +29,8 @@ public class Test {
 		
 		Client cl1= new Client("Meriem","Rochdi");
 		Client cl2= new Client("Catherine", "Rousseau");
+		cl1.setAchats(j5);
+		cl2.setAchats(j1);
 		
 		
 		

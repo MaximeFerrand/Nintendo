@@ -1,13 +1,20 @@
 package metier;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Client {
 	private String prenom;
 	private String nom;
+	private List<Jeu> achats=new ArrayList();
 	
 	
-	
+	public List<Jeu> getAchats() {
+		return achats;
+	}
+	public void setAchats(Jeu jeu) {
+		this.achats.add(jeu);
+	}
 	public Client(String prenom, String nom) {
 		this.prenom = prenom;
 		this.nom = nom;
