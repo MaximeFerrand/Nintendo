@@ -1,5 +1,6 @@
 package test;
 
+import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 
@@ -7,7 +8,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+         
 		Console c1 = new Console("DS");
 		Console c2 = new Console("PS2");
 		Console c3 = new Console("SWITCH");
@@ -19,6 +20,7 @@ public class Test {
 		Jeu j3 = new Jeu("The Legend of Zelda", c3);
 		Jeu j4 = new Jeu("Horizon", c4);
 		Jeu j5 = new Jeu("Forza Horizon", c5);
+		Boutique boutique =new Boutique("shop","35 rue de roches");
 		
 	}
 
