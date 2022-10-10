@@ -1,5 +1,7 @@
 package test;
 
+import java.time.LocalDate;
+
 import metier.Boutique;
 import metier.Client;
 import metier.Console;
@@ -13,11 +15,11 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Portable c1 = new Portable("DS", null, null);
-		Salon c2 = new Salon("PS2", null, null);
-		Hybride c3 = new Hybride("SWITCH", null, null);
-		Salon c4 = new Salon("XBOX", null, null);
-		Portable c5 = new Portable("PSP", null, null);
+		Portable c1 = new Portable("DS", 15, LocalDate.parse("2018-05-10"));
+		Salon c2 = new Salon("PS2", 15, LocalDate.parse("2018-05-10"));
+		Hybride c3 = new Hybride("SWITCH",15, LocalDate.parse("2018-05-10"));
+		Salon c4 = new Salon("XBOX", 15, LocalDate.parse("2018-05-10"));
+		Portable c5 = new Portable("PSP", 15, LocalDate.parse("2018-05-10"));
 
 		Boutique boutique =new Boutique("shop","35 rue de roches");
 		Jeu j1 = new Jeu("Pokemon" , c1,boutique);
