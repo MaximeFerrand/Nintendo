@@ -1,8 +1,11 @@
 package metier;
 
+import java.util.List;
+
 public class Client {
 	private String prenom;
 	private String nom;
+	
 	public String getPrenom() {
 		return prenom;
 	}

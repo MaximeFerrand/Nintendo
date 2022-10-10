@@ -22,6 +22,13 @@ public class Test {
 		Jeu j5 = new Jeu("Forza Horizon", c5);
 		Boutique boutique =new Boutique("shop","35 rue de roches");
 		
+		Client c1= new Client("Meriem","Rochdi");
+		Client c2= new Client("Catherine", "Rousseau");
+		
+		
+		
+		
+		
 	}
 
 }
