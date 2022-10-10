@@ -4,9 +4,11 @@ import java.time.LocalDate;
 
 public abstract class Console {
 
-	private String nom;
-	 private Integer prix;
-	 public Console(String nom, Integer prix, LocalDate dateSortie) {
+	protected String nom;
+	protected Integer prix;
+	protected LocalDate dateSortie;
+	
+	public Console(String nom, Integer prix, LocalDate dateSortie) {
 		
 		this.nom = nom;
 		this.prix = prix;
@@ -29,13 +31,7 @@ public abstract class Console {
 		this.dateSortie = dateSortie;
 	}
 
-	private LocalDate dateSortie;
-	 
-
-	public Console(String nom) {
-		this.nom = nom;
-	}
-
+	
 	public String getNom() {
 		return nom;
 	}
